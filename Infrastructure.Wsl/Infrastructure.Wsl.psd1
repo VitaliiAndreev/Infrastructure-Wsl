@@ -15,6 +15,7 @@
     FunctionsToExport = @(
         'Assert-Wsl2Ready',
         'Assert-WslHasBash',
+        'Invoke-WslShell'
     )
     CmdletsToExport   = @()
     AliasesToExport   = @()
