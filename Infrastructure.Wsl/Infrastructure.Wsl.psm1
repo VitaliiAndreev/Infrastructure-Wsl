@@ -3,7 +3,7 @@
     WSL (Windows Subsystem for Linux) utilities for infrastructure repos.
 
 .DESCRIPTION
-    Provides WSL-specific functions extracted from PowerShell.Common and
+    Provides WSL-specific functions extracted from Common.PowerShell and
     Infrastructure-Vm-Provisioner to keep each module cohesive and
     single-purpose. WSL is a Windows-exclusive runtime; everything in
     this module assumes wsl.exe is available on PATH (or that callers
