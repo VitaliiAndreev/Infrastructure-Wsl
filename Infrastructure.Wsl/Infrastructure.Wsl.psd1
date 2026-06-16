@@ -19,4 +19,14 @@
     )
     CmdletsToExport   = @()
     AliasesToExport   = @()
+    # PSData surfaces the project/license links and release notes on the
+    # PowerShell Gallery package page, giving the listing a link back to
+    # the source repository.
+    PrivateData = @{
+        PSData = @{
+            ProjectUri   = 'https://github.com/VitaliiAndreev/Infrastructure-Wsl'
+            LicenseUri   = 'https://github.com/VitaliiAndreev/Infrastructure-Wsl/blob/master/LICENSE'
+            ReleaseNotes = 'https://github.com/VitaliiAndreev/Infrastructure-Wsl/releases'
+        }
+    }
 }
