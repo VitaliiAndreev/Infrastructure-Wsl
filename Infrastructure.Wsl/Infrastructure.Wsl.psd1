@@ -1,7 +1,7 @@
 @{
-    ModuleVersion        = '0.1.0'
+    ModuleVersion        = '1.0.0'
     GUID                 = '9f4c8d11-7a32-4b8e-9d5f-2c1e3b4a5d6f'
-    Author               = 'Vitaly Andrev'
+    Author               = 'Klark Morrigan'
     Description          = 'WSL (Windows Subsystem for Linux) utilities for infrastructure repos.'
     PowerShellVersion    = '7.0'
     CompatiblePSEditions = @('Core')
@@ -19,4 +19,14 @@
     )
     CmdletsToExport   = @()
     AliasesToExport   = @()
+    # PSData surfaces the project/license links and release notes on the
+    # PowerShell Gallery package page, giving the listing a link back to
+    # the source repository.
+    PrivateData = @{
+        PSData = @{
+            ProjectUri   = 'https://github.com/Klark-Morrigan/Infrastructure-Wsl'
+            LicenseUri   = 'https://github.com/Klark-Morrigan/Infrastructure-Wsl/blob/master/LICENSE'
+            ReleaseNotes = 'https://github.com/Klark-Morrigan/Infrastructure-Wsl/releases'
+        }
+    }
 }
