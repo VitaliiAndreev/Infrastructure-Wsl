@@ -12,6 +12,11 @@ history and the tag list.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-06-17
+
+### Changed
+- Major version bump; no functional changes (version realignment).
+
 ## [0.1.0] - 2026-06-12
 
 ### Added
@@ -24,5 +29,6 @@ history and the tag list.
   `Invoke-WslShell` - WSL2 readiness assertions and a shell-invocation
   wrapper over `wsl.exe`, consumed by the other infrastructure repos.
 
-[Unreleased]: https://github.com/VitaliiAndreev/Infrastructure-Wsl/compare/0.1.0...HEAD
-[0.1.0]: https://github.com/VitaliiAndreev/Infrastructure-Wsl/releases/tag/0.1.0
+[Unreleased]: https://github.com/Klark-Morrigan/Infrastructure-Wsl/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/Klark-Morrigan/Infrastructure-Wsl/compare/0.1.0...1.0.0
+[0.1.0]: https://github.com/Klark-Morrigan/Infrastructure-Wsl/releases/tag/0.1.0
